@@ -1,0 +1,41 @@
+/**
+ *Provides a style template for GUI dark mode
+ */
+
+.root{
+    -fx-background-color: #262322;
+}
+
+.button{
+    -fx-background-color: #84828F;
+    -fx-text-fill: #EFE9F4;
+}
+
+.label{
+    -fx-background-radius: 20 20 20 20;
+}
+
+.titleLabel{
+    -fx-text-fill: #326273;
+    -fx-text-bold: true;
+}
+
+.messagesLabel{
+    -fx-text-fill:#84828F;
+    -fx-background-radius: 100px;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane{
+    -fx-background-color: transparent;
+    -fx-border-color: #84828F;
+    -fx-vbar-policy-color: #84828F;
+    -fx-text-inner-color: #84828F;
+}
+
+.scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
